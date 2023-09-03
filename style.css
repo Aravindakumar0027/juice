@@ -1,0 +1,301 @@
+*{
+    padding: 0%;
+}
+.navlist{
+    background-color: rgb(119, 120, 118);
+    height: 60px;
+    width: auto;
+
+}
+.ullist{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin-top: 20px;
+    
+
+
+}
+.ullist a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    
+
+}
+a:hover{
+    background-color: rgb(229, 229, 239);
+
+}
+.imagebrant{
+    margin: 10px;
+
+}
+#dropdownmenu{
+    color: rgb(252, 65, 32);
+    text-decoration: none;font-size: 16px;font-weight: 700;
+
+}
+.dropdown{
+  display: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+.drop:hover.dropdown{
+    display: none;
+    margin-top: 0; 
+}
+.myblock{
+   text-align: center;
+}
+.headingblock{
+    font-size: x-large;
+    text-align: center; 
+font-weight: 900;
+
+
+     color:brown;
+
+
+
+}
+#slid{
+    float: right;
+}
+
+.slider{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sliderbelow{
+    background-color: rgb(102, 109, 106);
+}
+.sliderbelow p{
+    font-size: larger;
+    text-align: center;
+
+}
+
+
+
+
+
+.star{
+    width: 98%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 0%;
+}
+.myblock p{
+    font-size: larger;
+}
+.myIcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  text-align: center;
+    
+}
+.icon{
+ padding: 70px;
+}
+
+.appleicon{
+    color: brown;
+    font-size: 40px;
+}
+.lemonicon{
+    color: yellow;
+    font-size: 40px;
+}
+.leaficon{
+    color: yellowgreen;
+    font-size: 40px;
+}
+#healthy{
+    justify-content: center;
+   margin-top: 20px;
+    border: 10px solid rgb(7, 237, 22); border-radius: 10px;
+   
+}
+#healthy:hover{
+ 
+    border: 10px solid rgb(46, 49, 47); 
+}
+.myblock2{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+    text-align: center;
+}
+.myblock2 p{
+    font-size:larger;
+    text-align: justify;
+}
+#knowmore{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.headingbloc{
+    color: darkred;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.myblock4{
+    text-align: center;
+    margin-top: 40px;
+    align-content: center;
+    padding: 30px;
+ 
+}
+.rightimg{
+    margin-top:20px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#slid{
+background-color: orange;padding: 10px;border-radius: 5px;opacity: 2;margin-right: 5px;
+}
+#knowmore{
+    background-color: orange;
+}
+#knowmore:hover{
+    background-color: crimson;
+    transform: scale(.5,1);
+}
+#knowmoree{
+
+    background-color: orange;padding: 10px;border-radius: 5px;opacity: 2;margin-right: 5px;
+}
+#knowmoree:hover{
+ background-color: crimson;
+ color:  wheat;
+ transform: scale(.4,1);
+
+}
+#slid:hover{
+    background-color: crimson;
+    transform: scale(.5,.5);
+}
+.botols{
+    padding: 70px;
+    margin: top 10px;
+    border: 13px solid rgb(31, 106, 203); border-radius: 60px;
+}
+.botols:hover{
+    border: 3px solid rgb(55, 57, 60); 
+   
+}
+
+.popular{
+    font-size: xx-large;
+    color: brown;
+    font-weight: 900;
+}
+.head5{
+    text-align: center;
+    font-size: xx-large;
+    color: brown;
+    font-weight: 800;
+}
+.head5:hover{
+    color: aliceblue;
+
+}
+  .left5 p{
+    font-size: larger;
+    text-align: justify;
+  } 
+.myblock4{
+    clear: both;
+    flex-wrap: wrap;
+
+}
+
+.myblock5{
+    clear: both;
+    margin: 20px;
+}
+.displa-3{
+   font-size: larger;
+   color: orange;
+   background-color: aliceblue;
+   border-radius: 100px;
+
+}
+.right5{
+    
+    
+  text-align: center;
+  
+
+
+}
+button a{
+    text-decoration: none;
+    align-items: center;
+    color: blue;
+
+}
+   .head6{
+    color: brown;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+  
+   }
+   .head6:hover{
+       color: aliceblue;
+   }
+   .popular:hover{
+    color: aliceblue;
+   }
+   .headingbloc:hover{
+    color: aliceblue;
+   }
+   .headingblock:hover{
+    color: aliceblue;
+   }
+
+footer{
+    background-color: rgb(75, 79, 79);
+}
+.fsection{
+    text-align: center;
+}
+.fsection p{
+    color: aqua;
+    font-size: large;
+}
+.fsection h3{
+    color: aliceblue;
+}
+#Copy{
+    text-align: center;
+    color: chartreuse;
+}
+.light{
+    width: 90px;
+    color: rgb(167, 196, 196);
+}
+.display-2{
+    background-color: rgba(74, 228, 71, 0.765);
+    color: aliceblue;
+    padding: 10px;
+    opacity: 0.7;
+    border-radius: 30px;
+}
+.btn {
+    background-color: pink;
+}
+
